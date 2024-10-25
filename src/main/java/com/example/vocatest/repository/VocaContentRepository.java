@@ -8,6 +8,4 @@ import java.util.List;
 
 public interface VocaContentRepository extends JpaRepository<VocaContentEntity, Long> {
     List<VocaContentEntity> findByVocaListEntityId(Long vocaListId);
-
-
 }
